@@ -1,0 +1,369 @@
+unit Unit1;
+
+{$mode objfpc}{$H+}
+
+interface
+
+uses
+  Classes, SysUtils, FileUtil, Forms, Controls, Graphics, Dialogs, StdCtrls;
+
+type
+  TArray = array of shortstring;
+  { TForm1 }
+  TForm1 = class(TForm)
+    Button1: TButton;
+    Button2: TButton;
+    Button3: TButton;
+    Button4: TButton;
+    Button5: TButton;
+    Button6: TButton;
+    Button7: TButton;
+    Button8: TButton;
+    Button9: TButton;
+    Edit1: TEdit;
+    Edit2: TEdit;
+    Edit3: TEdit;
+    Edit4: TEdit;
+    Edit5: TEdit;
+    Label1: TLabel;
+    Label2: TLabel;
+    Label3: TLabel;
+    Label4: TLabel;
+    Memo1: TMemo;
+    RadioButton1: TRadioButton;
+    RadioButton2: TRadioButton;
+    RadioButton3: TRadioButton;
+    RadioButton4: TRadioButton;
+    RadioButton5: TRadioButton;
+    RadioButton6: TRadioButton;
+    procedure Button1Click(Sender: TObject);
+    procedure Button2Click(Sender: TObject);
+    procedure Button3Click(Sender: TObject);
+    procedure Button4Click(Sender: TObject);
+    procedure Button5Click(Sender: TObject);
+    procedure Button6Click(Sender: TObject);
+    procedure Button7Click(Sender: TObject);
+    procedure Button8Click(Sender: TObject);
+    procedure Button9Click(Sender: TObject);
+    procedure FormCreate(Sender: TObject);
+    function ps():integer;
+    procedure nacitaj(var mena,priezviska,pozicia,plat:TArray;pr:integer);
+    procedure RadioButtonChange(Sender: TObject);
+  private
+    { private declarations }
+  public
+    { public declarations }
+  end;
+
+var
+  Form1: TForm1;
+
+implementation
+
+{$R *.lfm}
+
+{ TForm1 }
+procedure TForm1.nacitaj(var mena,priezviska,pozicia,plat:TArray;pr:integer);
+var
+i:integer;
+slovo:shortstring;
+subor:text;
+begin
+  assignfile(subor,'vstup.txt');
+  //nacitaj do array
+  reset(subor);slovo:='';
+    for i:=0 to pr-1 do begin
+      readln(subor,slovo);mena[i]:=slovo;
+      readln(subor,slovo);priezviska[i]:=slovo;
+      readln(subor,slovo);pozicia[i]:=slovo;
+      readln(subor,slovo);plat[i]:=slovo;
+    end;
+  closefile(subor);
+  //----------------
+end;
+function TForm1.ps():integer;
+var
+pr:integer;
+subor:text;
+begin
+  assignfile(subor,'vstup.txt');
+  //pocet riadkov
+  reset(subor);pr:=0;
+    while not eof(subor) do begin readln(subor);pr:=pr+1;end;
+  closefile(subor);
+  //-------------
+  ps:=pr div 4;
+end;
+procedure TForm1.FormCreate(Sender: TObject);
+begin
+    randomize;
+  //visible
+    Memo1.Visible:=false;
+    Edit1.Visible:=false;
+    Button7.Visible:=false;
+    Button8.Visible:=false;
+    RadioButton1.Visible:=false;
+    RadioButton2.Visible:=false;
+    RadioButton3.Visible:=false;
+    RadioButton4.Visible:=false;
+    RadioButton5.Visible:=false;
+    RadioButton6.Visible:=false;
+    Edit2.Visible:=false;
+    Edit3.Visible:=false;
+    Edit4.Visible:=false;
+    Edit5.Visible:=false;
+    Label1.Visible:=false;
+    Label2.Visible:=false;
+    Label3.Visible:=false;
+    Label4.Visible:=false;
+    Button9.Visible:=false;
+  //-------
+end;
+
+procedure TForm1.Button1Click(Sender: TObject);
+var
+mena,priezviska,pozicia,plat:TArray;
+pr:integer;
+i,j:integer;
+pom:shortstring;
+begin
+  //visible
+    Memo1.Visible:=true;
+    Edit1.Visible:=false;
+    Button7.Visible:=false;
+    Button8.Visible:=false;
+    RadioButton1.Visible:=false;
+    RadioButton2.Visible:=false;
+    RadioButton3.Visible:=false;
+    RadioButton4.Visible:=false;
+    RadioButton5.Visible:=false;
+    RadioButton6.Visible:=false;
+    Edit2.Visible:=false;
+    Edit3.Visible:=false;
+    Edit4.Visible:=false;
+    Edit5.Visible:=false;
+    Label1.Visible:=false;
+    Label2.Visible:=false;
+    Label3.Visible:=false;
+    Label4.Visible:=false;
+    Button9.Visible:=false;
+  //-------
+  //>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  Memo1.Clear;
+  pr:=ps();
+  setlength(mena,pr);
+  setlength(priezviska,pr);
+  setlength(pozicia,pr);
+  setlength(plat,pr);
+  nacitaj(mena,priezviska,pozicia,plat,pr);
+  //>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  for i:=0 to pr-1 do
+    for j:=0 to pr-2-i do
+      if priezviska[j]>priezviska[j+1] then begin
+        pom:=priezviska[j];
+        priezviska[j]:=priezviska[j+1];
+        priezviska[j+1]:=pom;
+        pom:=mena[j];
+        mena[j]:=mena[j+1];
+        mena[j+1]:=pom;
+        pom:=pozicia[j];
+        pozicia[j]:=pozicia[j+1];
+        pozicia[j+1]:=pom;
+        pom:=plat[j];
+        plat[j]:=plat[j+1];
+        plat[j+1]:=pom;
+      end;
+   for i:=0 to pr-1 do begin
+      Memo1.Lines.Add(priezviska[i]+' '+mena[i]+' '+pozicia[i]);
+   end;
+end;
+
+procedure TForm1.Button2Click(Sender: TObject);
+begin
+  //visible
+    Memo1.Visible:=true;
+    Edit1.Visible:=true;
+    Button7.Visible:=true;
+    Button8.Visible:=true;
+    RadioButton1.Visible:=false;
+    RadioButton2.Visible:=false;
+    RadioButton3.Visible:=false;
+    RadioButton4.Visible:=false;
+    RadioButton5.Visible:=false;
+    RadioButton6.Visible:=false;
+    Edit2.Visible:=false;
+    Edit3.Visible:=false;
+    Edit4.Visible:=false;
+    Edit5.Visible:=false;
+    Label1.Visible:=false;
+    Label2.Visible:=false;
+    Label3.Visible:=false;
+    Label4.Visible:=false;
+    Button9.Visible:=false;
+  //-------
+  Memo1.Clear
+end;
+procedure TForm1.Button7Click(Sender: TObject);
+var
+i:integer;
+mena,priezviska,pozicia,plat:TArray;
+pr:integer;
+begin
+  //>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  Memo1.Clear;
+  pr:=ps();
+  setlength(mena,pr);
+  setlength(priezviska,pr);
+  setlength(pozicia,pr);
+  setlength(plat,pr);
+  nacitaj(mena,priezviska,pozicia,plat,pr);
+  //>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  for i:=0 to pr-1 do begin
+    if Edit1.Text=priezviska[i] then Memo1.Lines.Add(priezviska[i]+' '+mena[i]);
+  end;
+end;
+procedure TForm1.Button8Click(Sender: TObject);
+var
+i:integer;
+mena,priezviska,pozicia,plat:TArray;
+pr:integer;
+begin
+  //>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  Memo1.Clear;
+  pr:=ps();
+  setlength(mena,pr);
+  setlength(priezviska,pr);
+  setlength(pozicia,pr);
+  setlength(plat,pr);
+  nacitaj(mena,priezviska,pozicia,plat,pr);
+  //>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  for i:=0 to pr-1 do begin
+    if Edit1.Text=mena[i] then Memo1.Lines.Add(priezviska[i]+' '+mena[i]);
+  end;
+end;
+procedure TForm1.Button3Click(Sender: TObject);
+begin
+    //visible
+    Memo1.Visible:=true;
+    Edit1.Visible:=false;
+    Button7.Visible:=false;
+    Button8.Visible:=false;
+    RadioButton1.Visible:=true;
+    RadioButton2.Visible:=true;
+    RadioButton3.Visible:=true;
+    RadioButton4.Visible:=true;
+    RadioButton5.Visible:=true;
+    RadioButton6.Visible:=true;
+    Edit2.Visible:=false;
+    Edit3.Visible:=false;
+    Edit4.Visible:=false;
+    Edit5.Visible:=false;
+    Label1.Visible:=false;
+    Label2.Visible:=false;
+    Label3.Visible:=false;
+    Label4.Visible:=false;
+    Button9.Visible:=false;
+  //-------
+  Memo1.Clear;
+end;
+
+procedure TForm1.RadioButtonChange(Sender: TObject);
+var
+i:integer;
+mena,priezviska,pozicia,plat:TArray;
+pr:integer;
+x:shortstring;
+begin
+  //>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  Memo1.Clear;
+  pr:=ps();
+  setlength(mena,pr);
+  setlength(priezviska,pr);
+  setlength(pozicia,pr);
+  setlength(plat,pr);
+  nacitaj(mena,priezviska,pozicia,plat,pr);
+  //>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  if RadioButton1.Checked then x:=RadioButton1.Caption
+  else if RadioButton2.Checked then x:=RadioButton2.Caption
+  else if RadioButton3.Checked then x:=RadioButton3.Caption
+  else if RadioButton4.Checked then x:=RadioButton4.Caption
+  else if RadioButton5.Checked then x:=RadioButton5.Caption
+  else if RadioButton6.Checked then x:=RadioButton6.Caption;
+  if x<>RadioButton6.Caption then begin
+    for i:=0 to pr-1 do begin
+      if x=pozicia[i] then Memo1.Lines.Add(priezviska[i]+' '+mena[i]+' '+pozicia[i]);
+    end;
+  end else begin
+    for i:=0 to pr-1 do begin
+      if (pozicia[i]<>RadioButton1.Caption)AND(pozicia[i]<>RadioButton2.Caption)AND(pozicia[i]<>RadioButton3.Caption)AND(pozicia[i]<>RadioButton4.Caption)AND(pozicia[i]<>RadioButton5.Caption) then Memo1.Lines.Add(priezviska[i]+' '+mena[i]+' '+pozicia[i]);
+    end;
+  end;
+end;
+
+procedure TForm1.Button4Click(Sender: TObject);
+begin
+  //visible
+    Memo1.Visible:=false;
+    Edit1.Visible:=false;
+    Button7.Visible:=false;
+    Button8.Visible:=false;
+    RadioButton1.Visible:=false;
+    RadioButton2.Visible:=false;
+    RadioButton3.Visible:=false;
+    RadioButton4.Visible:=false;
+    RadioButton5.Visible:=false;
+    RadioButton6.Visible:=false;
+    Edit2.Visible:=true;
+    Edit3.Visible:=true;
+    Edit4.Visible:=true;
+    Edit5.Visible:=true;
+    Label1.Visible:=true;
+    Label2.Visible:=true;
+    Label3.Visible:=true;
+    Label4.Visible:=true;
+    Button9.Visible:=true;
+  //-------
+end;
+procedure TForm1.Button9Click(Sender: TObject);
+var
+mena,priezviska,pozicia,plat:TArray;
+pr:integer;
+subor:text;
+begin
+
+  if (Edit2.Text<>'')AND(Edit3.Text<>'')AND(Edit4.Text<>'')AND(Edit5.Text<>'') then begin
+    assignfile(subor,'vstup.txt');
+    //nacitaj do array
+    append(subor);
+      writeln(subor,Edit2.Text);
+      writeln(subor,Edit3.Text);
+      writeln(subor,Edit4.Text);
+      writeln(subor,Edit5.Text);
+    closefile(subor);
+    //----------------
+    pr:=ps();
+    setlength(mena,pr);
+    setlength(priezviska,pr);
+    setlength(pozicia,pr);
+    setlength(plat,pr);
+    nacitaj(mena,priezviska,pozicia,plat,pr);
+    Edit2.Text:='';
+    Edit3.Text:='';
+    Edit4.Text:='';
+    Edit5.Text:='';
+  end;
+
+end;
+procedure TForm1.Button5Click(Sender: TObject);
+begin
+
+end;
+
+procedure TForm1.Button6Click(Sender: TObject);
+begin
+
+end;
+
+
+
+end. 
