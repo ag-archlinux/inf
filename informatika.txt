@@ -1,0 +1,417 @@
+Informatika
+1.Hoax, spam
+Hoax - je predovšetkým prostredníctvom internetu elektronicky šírená správa (najmä e-mailová), ktorá napriek svojej nezmyselnosti vyzýva na to, aby bola preposielaná dalším používatelom systému. Jednoduchost a prakticky nulová cena a námaha pri preposielaní spôsobila ich velký rozmach.
+Spam - je nevyžiadaná a hromadne rozosielaná správa prakticky rovnakého obsahu. Ide o zneužívanie elektronickej komunikácie, najmä e-mailu. Zväcša je používaný ako reklama, hoci za krátku históriu elektronickej komunikácie bol spam použitý aj z iných dôvodov. Existuje vela rôznych médií, ktoré sú spamermi zneužívané. Môže to byt napríklad spomínaný e-mail, instantné zasielanie správ, krátke textové správy,...
+2.Dvojková sústava – binárna sústava, je sústava v ktorej pracuje pocítac. Je to pozicná sústava ktorá používa 1 a 0
+
+107 : 2 = 53 zv. 1
+53	: 2 = 26 zv. 1
+26	: 2 = 13 zv. 0	Císlo 107 zapíšeme ako 1101011 (zdola nahor).
+13	: 2 = 	6  zv. 1
+6	: 2 =	3  zv. 0
+3	: 2 = 	1  zv. 1
+1	: 2 =	0  zv. 1 ?
+Alebo císlo 98 
+64 (zv. 34)	32(zv. 2)	16	8	4	2(zv. 0)	1
+ 1	 	 1		 0	0	0	1	0	 
+Císlo 98 zapíšeme ako 1100010.	Scitovanie: 	 1101011
+	107+98	+ 1100010
+	 	  11001101
+Násobenie: 9*5	1001	Odcitovanie pomocou otocenia císla (107-98)
+	*101	(98)1100010 ? 0011101	
+	1001	prirátame 1   ? 0011110(-98)
+	 0000	následne scítame 107+(-98)
+	  1001    	1101011
+	  101101	+0011110
+	1.0001001 (9) – prvé císlo 1:+,0:-
+3.Softvérová firma
+Tento pojem má viacero významov:
+?firma, ktorá vytvára alebo produkuje softvér
+?firma, ktorá distribuuje softvér iného výrobcu
+?firma, ktorá poskytuje služby ako napríklad tvorba aplikácií na zákazku
+Hlavnou úlohou softvérových firiem je tvorba aplikácií. Bud tvoria aplikácie pre velkú skupinu užívatelov ako napríklad grafické alebo textové editory, alebo tvoria špecializované aplikácie podla požiadaviek objednávatela. Tieto aplikácie väcšinou obsahujú vlastné skripty, makrá alebo simulácie navrhnuté presne pre potreby užívatela. V súcasnosti sa už softvérové firmy nešpecializujú len na aplikácie pre osobné pocítace, ale zaoberajú sa aj programovaním aplikácií pre web a aj web designom.
+
+
+
+Upgrade
+- vo svete pocítacov znamená nahradit aplikáciu novšou, vylepšenou, ale taktiež to znamená aj nahradit hardware novším, výkonnejším.
+- napr.: prechod z MS Windows 2000 na MS Windows XP
+Update
+- znamená zmenit dáta v databáze, alebo urobit len minimálny zásah do kódu programu  (napr. pri antivírusových programoch)
+-napr.: prechod z Opera 9.09 na verziu 9.10 alebo zmena databázy antivírusového programu vo verzii 2104 na databázou verzie 2105
+upgrade – update - pri upgrade meníme verziu programu za novšiu, alebo meníme hardvér za výkonnejší, tak pri update meníme zväcša iba databázu
+ 
+Registrácia softvéru
+?je nutná ak chceme legálne zakúpenú kópiu softvéru plnohodnotne využívat
+Naco registrovat softvér, ked funguje aj bez registrácie?
+?väcšinou funguje aj bez registrácie, ale v cene legálne kúpeného softvéru je aj technická podpora, zlava pri kúpe novej verzií a iné
+Existujú rôzne spôsoby registrácie:
+1.registrácia produktu cez internet - najbezpecnejšia a najpoužívanejšia
+2.registrácia cez telefón - tento spôsob je casto zneužívaný na registráciu nelegálnych kópii 
+4.Výhody pocítacovej siete
+?rýchla výmena informácii, komunikácia - elektronická pošta, chat
+?tímová práca, práca z pohodlia domova
+?zdielanie dát - centrálna inštalácia , dialková správa pocítacov
+?zdielanie hardvérových prostriedkov a periférií - zdielanie tlaciarní, zdielanie pevných diskov, zdielanie hardvéru, zdielanie pripojenia k Internetu,
+?služby - správa úctov v banke, objednávanie tovaru , bežný nákup
+?pracovné príležitosti
+?vzdelávanie
+Nevýhody
+?bezpecnost - nelegálny prienik , vírusy, pocítacová kriminalita
+?strata medziludských kontaktov, svet mimo reality
+?zahltenost informáciami
+?závislost na internete, pc hrách
+?(ne)pravdivost informácii
+5.Malware – zásady ochrany
+Škodlivý softvér (malware) je akýkolvek druh softvéru, ktorý je urcený na poškodenie pocítaca. Škodlivý softvér môže z pocítaca kradnút citlivé informácie, postupne ho spomalovat alebo dokonca odosielat falošné e-maily z vášho e-mailového úctu bez toho, aby ste o tom vedeli. 
+?Vírus: škodlivý pocítacový program, ktorý sa dokáže skopírovat a napadnút pocítac.
+?Cerv: škodlivý pocítacový program, ktorý posiela svoje kópie do iných pocítacov prostredníctvom siete.
+?Spyware: škodlivý program, ktorý zhromažduje informácie od ludí bez toho, aby o tom vedeli.
+?Adware: softvér, ktorý automaticky prehráva, zobrazuje alebo stahuje reklamy do pocítaca.
+?Trójsky kôn: deštruktívny program, ktorý predstiera, že je užitocná aplikácia ale namiesto toho po inštalácii poškodí pocítac alebo kradne informácie.
+Škodlivý softvér sa môže do vášho pocítaca dostat rôznymi spôsobmi. Uvádzame niekolko bežných príkladov:
+?stiahnutie bezplatného softvéru z internetu, ktorý tajne obsahuje škodlivý softvér;
+?stiahnutie legitímneho softvéru, ktorý je tajne prepojený s škodlivým softvérom;
+?navštívenie webovej lokality, ktorá je infikovaná škodlivým softvérom;
+?kliknutie na falošnú chybovú správu alebo kontextové okno, ktoré spustí stahovanie škodlivého softvéru;
+?otvorenie e-mailovej prílohy, ktorá obsahuje škodlivý softvér.
+Ako sa chránit pred škodlivým softvérom?
+?Udržiavajte svoj pocítac a svoj softvér aktuálny.
+?Vždy, ked je to možné, používajte iný než administrátorský úcet.
+?Pred kliknutím na odkazy alebo stahovaním rôznych položiek si to dobre premyslite.
+?Pri otváraní príloh e-mailov a obrázkov zachovávajte opatrnost.
+?Neverte kontextovým oknám, ktoré vás žiadajú o stiahnutie softvéru.
+?Obmedzte zdielanie súborov.
+?Používajte antivírusový softvér.
+6.Pocítacové bankové krádeže
+1.Phishing
+Správy, ktoré Vás pod urcitou zámienkou nabádajú ku zmene osobných údajov sa odborne nazývajú Phishing (v preklade rybárcenie). V takomto emaile je umiestnený odkaz, na ktorom si heslo máte zmenit, alebo ho vyžaduje od vás. Odkaz však nesmeruje na stránku banky, ale na jej dokonalú napodobeninu. Takéto správy sú väcšinou velmi formálne napísané. Niektoré dokonca vyzerajú tak, že ich odosielatelom je samotná banka. Preto si vždy overte pravost takejto správy a neotvárajte stránku cez odkaz v pošte.
+2.Pharming 
+Najzákernejší spôsob, ktorým Vás hacker môže pripravit o vaše úspory, je Pharming (farmárcenie). Táto metóda spocíva v presmerovaní názvu www stránky na inú adresu. Každej mennej adrese napríklad ib.vub.sk prislúcha císelná adresa napríklad 215.5.214.144. Pomerne jednoduchým spôsobom sa dá toto nastavenie zmenit. Ak zadáte mennú adresu do Vášho prehliadaca, miesto stránky banky sa zobrazí jej dokonalá napodobenina. Vy teda ani nezbadáte, že ste na inej stránke. Po zadaní údajov, ich získa neoprávnená osoba, ktorá takúto falošnú stránku vytvorila. Proti takejto hrozbe sa môžete bránit rôznym spôsobom. Najjednoduchším spôsob je zistit si císelný kód stránky internetbankingu. Stací otvorit príkazový riadok (štart a programy a príslušenstvo a príkazový riadok) a zadat príkaz ping adresa (napr. ping ib.vub.sk). Potom miesto mennej adresy do prehliadaca zadáte císelnú adresu (napríklad https:// 215.5.214.144). Dalšou možnostou je overovanie platnosti certifikátu a upozornenie pri prechode zo zabezpecenej stránky na nezabezpecenú. Tieto funkcie sa dajú nastavit v internetovom prehliadaci. Niektoré banky sa proti takémuto spôsobu elektronického podvodu bránia tak, že Vám ihned po prihlásení do systému pošlú SMS s kódom, ktorý musíte zadat alebo Vás aspon upozornia, že sa niekto prihlásil k Vášmu úctu.
+3.Spoofing
+Do kategórie Spoofing patria všetky metódy, ktoré používajú hackeri na zmenu totožnosti odosielaných správ. Jednou z týchto metód je i náhrada emailovej adresy pri phishingu, ktorá zabezpecí, aby správa vyzerala tak, že ju odoslala banka. Dalšou metódou je podvrh IP adresy na stránky, ktoré takýmto spôsobom overujú totožnost prihlasujúceho. Najviac nebezpecnou je však metóda nazývaná MITM(man-in-the-middle v preklade „muž v strede“). Táto metóda spocíva v narušení komunikácie medzi klientom a bankou, pri ktorej útocník naruší šifrovací systém verejného a súkromného klúca, ktorý sa používa pri komunikácii. Použit metódu MITM však nie je jednoduché, pretože na narušenie komunikácie je potrebné získanie klúca (niekedy tiež oznacovaný ako certifikát) banky, ktorý sa casto mení. Je preto dôležité nastavit Váš internetový prehliadac tak, aby overoval, ci je certifikát ešte platný
+7.Kódovanie znakov
+- kódovanie je proces, pri ktorom sa každému znaku alebo postupnosti znakov daného súboru znakov (vzorov) jednoznacne priradí znak alebo postupnost znakov (obrazov) z iného súboru znakov.
+- kódovanie je teda transformácia urcitej informácie z jednej formy na druhú pomocou urcitého postupu – algoritmu, ktorý je väcšinou verejne známy. Vo väcšine prípadov teda úcelom kódovania nie je utajenie informácie (na rozdiel od šifrovania) ale len jej iná forma zápisu vybrané tak, aby sa informácia dala co najlepšie alebo najúspornejšie uchovat alebo preniest.
+-Vdaka pocítacom sa najcastejšie používa kódovanie údajov a informácií do císelnej podoby. Takémuto kódovaniu tiež hovoríme digitalizácia.
+8.Sietové zariadenia
+-všetky zariadenia pripojené do pocítacovej siete, ktoré prijímajú a vysielajú dáta (datagramy) z (do) pocítacovej siete
+Typy sietových zariadení:
+?Opakovac (Repeater) je zariadenie používané v pocítacových sietach na prekonanie problému útlmu. Opakovac zosilní každý signál, ktorý prijme a po zosilnení ho vysiela dalej.
+?Hub (rozbocovac) umožnuje vetvenie pocítacovej siete, všetky dáta, ktoré prichádzajú na jeden z portov skopíruje na všetky ostatné porty
+?Bridge – most – spája dva fyzicky oddelené segmenty siete
+?Switch – prepínac – spája dve a viac zariadení v rámci jedného alebo viacerých segmentov siete
+?Router – smerovac – presmerováva komunikáciu do iného segmentu rovnakého typu siete
+?Gateway – brána – sprostredkováva komunikáciu dvoch odlišných typov siete
+9.Výstupné zariadenia 
+-zariadenie, ktoré umožnuje výstup dát alebo signálov z pocítaca vo forme zrozumitelnej cloveku ako sú napr. obrazová, textová alebo zvuková informácia alebo v inej forme za úcelom ich dalšieho spracovania alebo využitia pre riadenie dalších k pocítacu pripojených zariadení
+Typickým príkladom výstupných zariadení je: 
+?pocítacový monitor (displej),
+?projektor,
+?tlaciaren,
+?plotter (grafické výstupné zariadenie pocítaca, urcené pre zobrazenie vektorovej grafiky),
+?pocítacové reproduktory,
+?slúchadlá,
+10.Softvér
+-Je programové vybavenie pocítaca. Ide o programy, ktoré umožnujú hardware co najlepšie využit.
+-má nemateriálnu povahu
+-kategórie softvéru sú:
+?Operacné systémy- softvér ktorý riadi celý PC, ulahcuje používatelovi spúštat aplikácie, pracovat so súbormi...  
+?Programovacie prostredie-programovacie jazyky, ktoré nám umožnujú vytvárat a ladit programy
+?Aplikácie
+?Nástroje-programy umožnujúce nastavovat vlastnosti pocítaca, operacného systému, aplikácií 
+?Informacné systémy 
+11.Informácie- typy informácií
+-Informácie-sú to fakty ktoré si vymienajú ludia, ked si ich uložíme do pocítaca stavajú sa údajmi 
+Poznáme viaceré typy údajov kódované na pocítaci.
+-Všetky informácie sú v pocítacoch zapísané v dvojkovej sústave, teda len jednotkami a nulami. Jedna „cifra“ sa nazýva bit. 
+
+Základné delenie typov údajov:
+?Textové: 
+-spracúvajú sa v textových editoroch (napr. Word), ktoré umožnujú menit typ, velkost, farbu, rozloženie textu,... 
+?Grafické: 
+-patria sem obrázky, fotografie, schémy, 
+?Zvukové: 
+-zvuk = elektromagnetické vlnenie,
+?Multimediálne:  
+-zlúcené viaceré druhy informácií,  
+-napr. text + statický obraz + zvuk + animácie + videá
+?Císelné:  
+-císla vyjadrené v rôznych císelných sústavách
+12.Komunikácia na internete
+-existujú 2. druhy komunikácie pomocou internetu:
+1.Interaktívna 
+-užívatelia si vymienajú informácie textové, grafické, zvukové alebo video v reálnom case ciže online 
+-programy, ktoré to umožnujú sú napr. IRC, Talk, ICQ, Chat
+2.Neinteraktívna
+-užívatelia nemôžu okamžite reagovat, adresát na informácie reaguje až po istom case ked sa k nemu dostanú 
+-napr. e-mail, SMS, 
+13.Internetové protokoly
+-Na sietovú komunikáciu sa používajú protokoly. Protokol je súhrn dohodnutých pravidiel, ktoré sa musia dodržiavat, aby bola komunikácia úspešná.
+-môžu byt implementované v hardvéri, softvéri ale kombinácií oboch 
+TCP/IP
+-najpoužívanejší internetový protokol je TCP/IP, je tiež základom internetu
+-TCP/IP je oznacením viacerých protokolov, ktoré sa používajú pri komunikácií prostredníctvom internetu 
+-názov je odvodený do 2 základných protokolov a to:
+?TCP-zabezpecuje že programy na pocítacoch v sieti môžu vytvárat medzi sebou spojenia (connections), ktorými je možné posielat dáta. Protokol pritom zarucuje, že dáta odoslané z jedného konca spojenia budú prijaté na druhej strane spojenia v rovnakom poradí a bez chýbajúcich castí.
+?IP-slúži na na výmenu dát sietou
+-protokoly sa delia do vrstiev a to:
+?Aplikacná vrstva-slúžia na komunikáciu prostredníctvom siete (napr. HTTP, FTP)
+?Transportná vrstva-riešia problémy ako spolahlivost a zabezpecujú, že dáta prídu v správnom poradí (napr. TCP, UDP, RTP, SCTP)
+?Sietová vrstva-transport dát z jednej siete do druhej (IP)
+?Linková vrstva-spôsob prenosu paketov fyzickou vrstvou (napr. Ethernet, Token ring, atd.)
+?Fyzická vrstva-charakterizuje komunikáciu po fyzickej stránke (drôty, optické vlákno, rádiové spojenie)
+ 
+14.Doménová adresa, IP adresa 
+IP adresa
+-je to logický císelný identifikátor daného uzla (najcastejšie pocítaca) v sieti , ktorý komunikuje s inými uzlami prostredníctvom protokolu IP 
+-existujú dva typy IP adries a to IPv4 a IPv6
+-IPv4 je 32 bitové císlo, zapisuje sa ako štyri 8-bitové císla v desiatkovej sústave oddelené bodkou (207.142.131.205)
+-takže maximálny pocet IPv4 adries je 232 adries 
+-IPv6 sa zaviedli pretože IPv4 adresy by nestacili pre všetky pripojené pocítace v sieti 
+-IPv6 je 128 bitové císlo, takže pocet IPv6 adries je 2128, zapisuje sa ako 8 císel v 16 sústave oddelené dvoj-bodkou (2001:0db8:85a3:0000:1319:8a2e:0370:7344)    
+Doménová adresa
+-pamätat si IP adresy pocítacov na internete je pre cloveka nemožné preto sa používajú doménové IP adresy
+-doména sa skladá z niekolkých retazcov, znakov oddelených bodkou
+-domény poznáme:
+1.Všeobecné-.edu,.com,.net,.org,..
+2.Dvojznakové domény štátov-.sk,.cz...
+-prevod IP adries na domény zabezpecuje mechanizmus DNS (Domain Name System) 
+
+15.Vektorové obrázky
+- nie sú tvorené skupinou štvorcekov, ale základnými objektmi (bod, úsecka (vektor), priamka, krivka, mnohouholník, …), ktorých algoritmy zostrojenia sú vopred známe, len treba zaznamenat (zakódovat) ich základné charakteristiky (napr. pre kružnicu súradnice stredu, polomer, prípadne farba ciary napr. : K40Ž200150 - kružnica s polomerom 40 žltej farby a so súradnicami stredu 200 150).
+16.Konfigurácia PC
+Konfigurácia je zostava osobného pocítaca. Môže byt štandardná alebo rozšírená. Štandardná konfigurácia PC je tvorená tromi základnými konštrukcnými prvkami:
+·         monitorom
+·         centrálnou (systémovou) jednotkou
+·         klávesnicou
+Toto je najmenšia možná konfigurácia, kedy je pocítac schopný komunikovat s používatelom. Dalšie prídavné zariadenia, ako napr. myš, tlaciaren, plotter a pod., nie sú nevyhnutne potrebné. Tvoria tzv. rozšírenú konfiguráciu.
+Centrálna jednotka
+1.      Základná doska – zabezpecuje komunikáciu medzi ostatnými súciastkami, ktoré sa spravidla stavebnicovo zasúvajú do slotov (zásuviek)
+2.      Procesor  (CPU)– na základe inštrukcii a údajov z operacnej pamäte riadi ostatné súcasti
+3.      Operacná pamät – slúži na ukladanie údajov, s ktorými systém pracuje, je rýchla, no  vypnutím sa jej  obsah stratí
+4.      Externé pamäte (pevný disk, CD, DVD) – slúžia na zápis a poskytovanie údajov, ktoré majú byt k dispozícii aj po vypnutí PC
+5.      Rozširujúce karty (grafická, sietová, zvuková)
+6.      Skrinka  a zdroj
+
+
+17.Farebné modely
+- opisujú základné farby a schémy miešania týchto základných farieb do výslednej farby
+- všetky farby sa dajú vytvorit zmiešaním lubovolných troch nezávislých farieb 
+Hardvérovo orientované RGB, CMY, YUV ? 
+Užívatelsky orientované HSV a HLS  ? 
+Vnemovo orientované LAB, LUV, LUX
+
+Farebný model RGB 
+- je najcastejšie využívané kódovanie farby bodu obrázka
+- najvýhodnejšie pre výrobu svetelných lúcov bolo použitie farieb cervená (Red), zelená (Green), modrá (Blue)
+- ak zmiešame všetky tri základné farby s maximálnou sýtostou, dostaneme bielu farbu
+- výhodný pri obrazovkách monitorov, pretože tienidlo je cierne
+Aby sme vedeli vytvorit 1,5 milióna farieb stací, ak každú z týchto farieb rozdelíme na 115 oddtienov, ktorých zmiešaním v rôznych pomeroch vzniknú všetky farby. Kvôli uchovaniu v pamäti pocítaca, je však výhodnejšie použit až 256 odtienov každej farby (8 bitov), co nám umožní vytvorit až 16 777 216 rôznych farieb.
+RGBA
+- používa v pocítacovej grafike na vyjadrenie skutocnosti, že farebný obraz zapísaný v modeli RGB je doplnený informáciou o priehladnosti
+Farebný model CMY 
+- používa doplnkové farby k farbám cervená, zelená a modrá
+- týmito farbami sú azúrová (Cyan), purpurová (Magenta) a žltá (Yellow)
+- výhodný pri tlaci, pretože sa tlací na bliely papier
+Kvôli tomu, že je lacnejšie vyrobit cierny atrament ako ho miešat pomocou týchto troch farieb, sa k týmto farbám pridáva i samostatná cierna farba a tento model sa oznacuje tiež CMYK, kde posledné písmeno je odvodené od blacK - cierna .
+
+Farebné modely HSV a HLS
+Sú súcasnosti už málo používané
+Tieto modely sú vhodnejšie pre intuitívne vnímanie farieb. 
+Hlavnými parametrami sú tón farby (H-hue), sýtost (S-saturation) a jasová hodnota (V-value alebo aj brightness). Tón farby urcuje prevládajúcu spektrálnu farbu, sýtost urcuje prímes ostatných farieb a jas množstvo bieleho svetla. Pre priestorové zobrazenie používame pravidelný 6-boký ihlan, ktorého vrchol leží v zaciatku súradnicovej sústavy. V ostatných vrcholoch sú umiestnené základné farby R, G, B, C, M a Y.
+ HLS model je odvodený od modelu HSV a líši sa priestorovým zobrazením (šestuholník nahradený kruhom).
+
+Farebný model YUV 
+- slúži na zachovanie ciernobielej informácie pri televíznom vysielaní.  Farba je kódovaná tak, že k ciernobielej zložke Y, ktorú tiež nazývame svietivost (luminance), pridáme dve farebné zložky UV farebnosti (chrominance), pricom zložka U udáva odtien medzi modrou a žltou a zložka V udáva odtien medzi cervenou a žltou farbou. Takže ciernobiely prijímac berie do úvahy iba zložku Y 
+
+
+
+
+
+
+ 
+18.Tlaciarne
+
+19.Vstupné a výstupné zariadenia
+Vstupné 
+- sú tie zariadenia, ktorými do pocítaca vstupujú informácie. Tieto informácie sú bud vo forme dát , vo forme zvuku, obrazu alebo videa. 
+=)?klávesnica, myš,CD-ROM alebo DVD-ROM mechaniky,skener, trackball, joystick, tablet, trakpad
+Výstupné 
+- zariadenia slúžia práve naopak na zobrazovanie, prehrávanie alebo tlac týchto dát
+=)  monitor, tlaciaren, reproduktory ?
+Vstupno/výstupné 
+- umožnujú vykonat obe funkcie .Dôležitými periférnymi zariadeniami sú vonkajšie pamäte. Uchovávajú informácie aj po vypnutí pocítaca.
+=)  USB, CD alebo DVD disk, pevný disk, pamätová karta
+
+
+
+20.Operacný systém
+- základné programové vybavenie pocítaca, ktoré je zavedené do pamäti pocítaca pri štarte a zostáva v pamäti až do jeho vypnutia. Umožnuje základné riadenie všetkých zdrojov pocítaca a komunikáciu s užívatelom.
+Základné funkcie operacného systému: 
+· Komunikácia s užívatelom – pomocou periférnych zariadení 
+· Pridelovanie prostriedkov systému – napr. pamät, vstupno-výstupné kanály 
+· Pridelovanie casu 
+· Organizovanie programov a dátových súborov 
+· Vytváranie a spúštanie užívatelských programov 
+· Diagnostické funkcie – samokontrola, vyhladávanie a opravy porúch 
+· Zabezpecovacie funkcie – proti strate dát, výpadku siete,... 
+· Komunikácia s inými užívatelmi siete (prostredníctvom protokolov)
+Typy operacných systémov:
+MS Windows - graficky orientovaný OS podporujúci multitasking. V súcasnosti najrozšírenejší OS na pocítacoch. Má niekolko verzií: 95, 98, 2000, XP, Vista, 7, 8.  
+LINUX - je casto použitý ako serverový OS. Má aj grafické rozhranie X-Windows. Napr. Debian, Ubuntu/Kubuntu/Xubuntu, Fedora Core, OpenSUSE, Mandriva, Red Hat, SLED, Xandros a iné. 
+MAC OS - je urcený pre pocítace Macintosh od firmy Apple Computer. Poskytuje multitasking, rýchle sietové služby.
+21.Von Neumannova architektúra pocítaca
+Pocítace pracujú na rovnakom princípe, ktorý popísal už v roku 1945 americký matematik narodený v Madarsku John von Neumann. 
+Podla tejto teórie, ktorá s menšími obmenami platí dodnes, sa bloková schéma pocítaca skladá zo piatich blokov:? 
+1.ALU=Aritmeticko-Logická jednotka- jednotka vykonávajúca všetky aritmetické a logické operácie. Obsahuje bloky urcené na aritmetické operácie ako scítanie, odcítanie, násobenie a delenie a bloky na logické operácie ako porovnávanie a pod. Úlohou ALU je krok po kroku vykonávat program uložený v pamäti.
+2.Operacná pamät – skladisko pre samotný program, dáta programu, docasné skladisko pre medzivýpocty a samotné výsledky. V operacnej pamäti sa nachádzajú miesta na uloženie daných dát,ktoré možme adresovat a tým cítat a zapisovat do lubovolného miesta v pamäti. 
+- Základnou jednotkou pamäte =1 BIT , ktorý reprezentuje logický stav 0 alebo 1. 
+- Množina ôsmich bitov sa nazýva jeden bajt (slabika) a je to najzákladnejšia a najmenšia adresovatelná jednotka v pamäti.
+3.Radic – riadiaca jednotka pocítaca, ktorá riadi jeho celú cinnost. Toto riadenie sa uskutocnuje pomocou riadiacich signálov, ktoré predáva každému zariadeniu. 
+4.Vstupné zariadenie – zariadenie, ktoré slúži na vstup programu a dát 
+5.Výstupné zariadenie – zariadenie, ktoré slúži na výstup spracovaných dát, ktoré ALU spracovala pomocou programu.
+22.Pocítacová siet – rozlahlost (22)
+Pocítacová siet – spojenie najmenej dvoch pocítacov (disponujúcich sietovou kartou)
+Delenie pocítacovej siete podla velkosti:
+?PAN (Personal Area Network) – osobná siet, spojenie dvoch pocítacov v domácnosti
+?LAN (Local Area Network) – lokálna siet, väcšinou spojenie pocítacov v jednej budove/domácnosti/firme
+?MAN (Metropolitan Area Network) – siet menšieho geografického územia, najcastejšie mesta alebo nejakej casti mesta
+?WAN (Wide Area Network) – siet velkej geografickej jednotky, napríklad štát alebo kontinent. Casto sa oznacuje internet ako ako WAN siet.
+23.Operacný systém - súbory a priecinky
+Súbor – každý súbor musí mat meno a byt uložený v urcitom formáte (.mp3, .avi, ...) aby ho dokázal operacný systém otvorit a uložit. Súbory sa ukladajú do adresárov (priecinkov).
+Priecinok (Adresár) – Operacný systém obsahuje hierarchickú štruktúru adresárov. V priecinkoch sa nachádzajú súbory. Vdaka tejto hierarchii si vieme vytvorit urcité logické usporiadanie priecinkov a súborov v pocítaci podla vlastných preferencií.
+24.Netiketa
+Netiketa – súbor pravidiel používania internetu (tiež etiketa internetu).
+Základné pravidlá:
+?Nepoužívat vulgarizmy
+?Nenavštevovat zakázané stránky a stránky s podozrivým obsahom
+?Nešírit falošné správy, spam, nenávistné správy
+?Rešpektovat súkromie ostatných, ohladuplné správanie k ostatným
+?Nezneužívat vedomostnú prevahu proti ostatným
+25.Bitová mapa
+Bitová mapa (Raster) – je dátový súbor, ktorý obsahuje usporiadané body v pomyselnej mriežke. Základným bodom je pixel. Pomocou bitmáp sa zaznamenávajú aj reálne veci (fotky). Pri priblížení sa obrázok rozmázava (resp. „kockatie“). Najcastejšie formáty rastrových obrázkov sú .bmp, .png (nekomprimované), .jpg (komprimovaný formát). Rozlíšenie rastrového obrázku sa uvádza v tvare šírka x výška. Na kvalite sa podiela aj farebná hlbka, ktorá sa uvádza najcastejšie v bitoch. Farebná hlbka hovorí o velkosti jedného pixelu vzhladom na pocet možných farieb. Ciže zmenou farieb obrazca sa pri rovnakej farebnej hlbke nezmení velkost celej bitmapy. Napríklad 16bitová farebná hlbka sa nazýva High Color, 24b True Color. Farebný model, nás informuje z ktorých farieb sa mixujú farby, najznámejšie sú RGB a CMY(K).
+Velkost bitovej mapy = rozlíšenie × farebná hlbka
+26.Digitalizácia zvuku
+Digitalizácia zvuku – Zvukových vlny sa zachytávajú pomocou vstupného zariadenia, v PC sa im priradí urcitý kód. Základná jednotka je vzorka. Celý proces sa nazýva vzorkovanie. Pocet vzoriek za urcitý cas (najcastejšie za sekundu) sa nazýva frekvencia vzorkovania. Zvukové súbory sú najcastejšie vo formátoch .wav (nekomprimované) a .mp3 (komprimované). Pocet kanálov je pocet nahrávok pre jeden zvukový súbor, mono (1 nahrávka = kanál ) stereo (2 nahrávky). V minulosti sa používali MIDI zvuky, ktoré boli umelo vytvorené a ku každému tónu bol priradený kód a jeho dlžka. Monofónne MIDI sa kedysi používalo v mobiloch a dnes v pohladniciach, polyfónne MIDI už rozoznáva aj nástroje.
+Velkost zvukového súboru = dlžka nahrávky × frekvencia × velkost vzorky × pocet kanálov
+27.Kompresia
+Kompresia súboru – zmenšenie velkosti na úkor kvality. Koeficient kompresie je císlo v intervale , ktoré vyjadruje kolkokrát sa zväcšil pôvodný obrázok/zvuk/video,... Pri komprimácií rastrov sa velké plochy rovnakej farby ukladajú efektívnejšie. Pri komprimácií zvuku sa vynechávajú niektoré frekvencie zvukových vln, ktoré nie sú pocutelné. Video sa dá komprimovat viacerými spôsobmi, casto však znížením rozlíšenia.
+Digitalizácia videa
+-Video: sled obrázkov meniacich sa v case (minimálne 10 obrázkov za sekundu)
+-Bežne sa používa 25-30 obrázkov za sekundu
+Parametre: 
+1.)FRAME RATE : pocet obrázkov za sekundu  - fps (frames per second)
+2.)Rozlíšenie a farebná hlbka (HD, full HD) - pocet pixelov na šírku krát pocet pixelov na výšku
+3.)Pomer strán:    16:9 /  16:10/ 4:3
+4.)Dátový tok : BIT RATE: kolko bitov je potrebných na rekonštrukciu videa ktoré trvá 1 sekundu , udáva sa v megabitoch za sekundu – Mb/s
+Výpocet velkosti: 
+Velkost videa (neskomprimovaného bez zvuku) potom záleží od velkosti snímky, poctu snímok za sekundu a dlžky videa (v sekundách). 
+velkost snímky x pocet snímok za sekundu x dlžka videa = velkost súboru
+ velkost snímky = velkost obrazu x pocet bajtov na pixel
+Vonkajšie pamäte
+-Pevný disk, CD, DVD, Blueray, USB, Externý disk
+-rozdelujeme ich na: 	ROM (Read only memory)
+	     RVM (Read write memory)
+Vypnutie pocítaca nespôsobí stratu dát na vonkajších pamätiach. Ich hlavnou úlohou je uschovanie dát, s ktorými mikroprocesor momentálne nepracuje, ale ktoré si v prípade potreby nacíta.
+Pevný disk
+-slúži na trvalé uchovanie údajov	
+-Údaje sa cítajú z kovových platní pokrytých magnetickou vrstvou, o tento zápis sa starajú cítacie a zapisovacie hlavy
+-Ked zapneme pocítac zacnú rotovat, pokým nevypnem pocítac
+-Zapisujú údaje
+-Je uzatvorený v prachotesnom obale
+-zaujíma nás kapacita
+-SSD (Solid-state drive) disky- modernejšia flash pamät, cenovo drahé
+
+Informácia – informatika, jednotky informácie
+Údaj- 		Všetko co zachytíme zmyslami a nemusíme pochopit
+Informácia- 	Je údaj, ktorý je pre nás zrozumitelný
+Informatika-	 Veda, ktorá sa zaoberá informáciami, ich získavaním , šírením, vyhladávaním a aj uchovávanie. Odclenila sa od matematiky. Pozostáva z viacerých poprepájaných oblastí:  
+1.Výpoctová technika
+2.Algorimizácia, programovanie a softvérové inžinierstvo
+3.Pocítacová grafika
+4.Pocítacová simulácia
+5.Formálna logika automatov
+6.Kybernetika a robotika
+7.Umelá inteligencia
+ 	
+Jednotky informácie
+1B=8b
+Kilobajt= 1000 B  			kibibajt= 1024 B
+
+
+
+Šifrovanie
+Až do novoveku kryptológia oznacovala takmer výlucne šifrovanie, proces zmeny otvoreného obsahu textu do nezrozumitelnej podoby (zašifrového textu). Dešifrovanie je opacný proces k šifrovaniu, je to zmena zašifrovaného textu na otvorený text. Šifra je dvojica algoritmov (predpisov na spracovanie), ktorými sa vykonáva šifrovanie a dešifrovanie. Šifrovanie je riadené algoritmom a klúcom. Klúc je tajný parameter (v zásade je známy iba príjemcovi a odosielatelovi). Klúce sú dôležité a šifry bez variabilných klúcov sú lahko prelomitelné a preto menej používané. Medzi najznámejšie príklady kódu sa zaraduje ASCII a Morseova abeceda. Ak by sa napríklad odosielatel dohodol s príjemcom na zmene poradia o jeden symbol v Morseovej abecede, v tom prípade by už išlo o šifru a klúcom by bolo samotné posunutie.
+
+Symetrická šifra, niekedy nazývaná aj konvencná, je taký šifrovací algoritmus, ktorý používa k šifrovaniu a dešifrovaniu jediný klúc. Podstatnou výhodou symetrických šifier je ich nízka výpoctová nárocnost.
+
+
+ 
+
+
+Asymetrická šifra používa verejný klúc pre šifrovanie a súkromný klúc pre dešifrovanie. Asymetrická kryptografia je skupina kryptografických metód, v ktorých sa pre šifrovanie a dešifrovanie používajú odlišné klúce. To je základný rozdiel oproti symetrickej kryptografii, ktorá používa na šifrovanie a dešifrovanie jediný klúc.
+ 
+
+ 
+
+
+Symetrické šifry sa casto používajú spolocne s asymetrickými. Obvyklé použitie je také, že otvorený text sa zašifruje symetrickou šifrou s náhodne vygenerovaným klúcom. Tento symetrický klúc sa zašifruje verejným klúcom asymetrickej šifry, takže dešifrovat dáta môže len majitel tajného klúca danej asymetrickej šifry.
+
+Hašovacia funkcia je spôsob, ako z celého textu vytvorit krátky retazec, ktorý s velmi velkou pravdepodobnostou identifikuje nezmenený text.
+ 
+
+ 
+
+
+Certifikáty a elektronický podpis sú softwarové prostriedky, ktoré umožnia šifrovanie textu.
+ 
+
+
+
+
+
+E- learning
+Co je elearning.
+Elearning predstavuje najmodernejší spôsob výucby s využitím informacných technológií. Je to implementácia informacných technológií do vývoja, distribúcie a riadenia vzdelávania alebo výucby. Elearning je efektívnym prostriedkom, ako sa spojit so študentmi alebo zamestnancami a odovzdat im cenné informácie na dialku. Toto odovzdávanie informácií sa najcastejšie realizuje prostredníctvom on-line dištancných kurzov. Dištancné vzdelávanie ako také, teda samoštúdium za pomoci tútora, ktorý je fyzicky oddelený od študujúcich a vzdelávanie iba koordinuje, existuje už vela rokov. Rozvoj informacných technológií zasiahol aj do vzdelávania a výrazne vylepšil vyucovací proces. Internet a dnes už vysoko technické vybavenie pracovísk a domácností sa zaslúžili o to, že dištancné vzdelávacie kurzy sú dnes už dostupné pre všetkých.
+Pre koho je elearnig urcený
+Elearning je urcený pre každého, kto vyhladáva informácie - ako pre študentov stredných ci vysokých škôl, na prípravu na prijímacie pohovory do škôl, tak i pre organizácie a ich zamestnancov ako súcast zvyšovania kvalifikácie a zdielanie firemného know-how. Pre študentov elearning predstavuje praktickú a pohodlnú formu získavania informácií, zamestnancom a organizáciam elearning poskytuje efektívny nástroj manažmentu vzdelávania ci manažment kvality a nenahraditelné miesto má aj v uciacej sa organizácii.
+Formy elearningu
+Elearning vzdelávanie môže mat viacero foriem, a takto sa dokonale prispôsobit potrebám individuálnych študentov, skupín a organizácií. Najosvedcenejšou formou elearngu je takzvaný asynchrónny elearnig. Zahrna samoštúdium jednotlivých študentov alebo zamestnancov, ktorí si sami volia aké informácie potrebujú, kedy a akým tempom ich budú prijímat. Pre individuálnych študentov znamená asynchrónny elearning casovú a priestorovú slobodu v procese ucenia, študent prispôsobuje ucebný proces vlastným potrebám a návykom. Študenti ci zamestnanci si sami vyberú cas a miesto, ktoré zabezpecia lepšiu koncentráciu a rýchlejšie osvojenie si ucebnej látky, jedinou podmienkou je prístup na internet. V reálnom svete by mali organizácie nevycíslitelné náklady, ak by chceli zastavit pracovnú cinnost, zhromaždit a vzdelávat všetkých zamestnancov v rozlicných odboroch. Takéto vzdelávanie neberie do úvahy individualitu zamestnancov, rôznu úroven ich vedomostí, odbornosti a postavenia v organizácii. A práve pre organizácie asynchronny elearning prináša jednoduché a financne výhodné riešenie skupinového vzdelávania, ktoré vyhovuje každému.
+Internetový obchod
+Internetový obchod alebo e-shop alebo e-obchod aleb? online obchod je obchod (resp. aj obchodovanie) na internete. "Opakom" internetového obchodu je najmä klasický, v tejto súvislosti prezývaný "kamenný" obchod.
+Výhodou internetového obchodu sú spravidla nižšie náklady než v prípade kamenných obchodov, a tým aj nižšie ceny. Nevýhodou sú problémy spojené s bezpecnostou nákupu a najmä osobných údajov. Spravidla platí, že u známych internetových obchodov je bezpecnost vysoká.
+Existuje niekolko druhov platieb, vo svete je najrozšírenejšie platenie kreditnými a debetnými kartami. Ide o tzv. embosované karty, ktoré majú svoje císlo a toto císlo sa uvádza pri platbe. Následne sú peniaze automaticky prevedené na úcet obchodu do niekolkých minút. Dalšou možnostou sú platby pomocou internetového bankingu. Táto možnost je na Slovensku najviac rozšírená.
+33. Internetový obchod
+Internetový obchod alebo e-shop je obchod na internete. "Opakom" internetového obchodu je najmä klasický, v tejto súvislosti prezývaný "kamenný" obchod. Výhodou internetového obchodu sú spravidla nižšie náklady než v prípade kamenných obchodov, a tým aj nižšie ceny. Nevýhodou sú problémy spojené s bezpecnostou nákupu a najmä osobných údajov. Spravidla platí, že u známych internetových obchodov je bezpecnost vysoká.
+34. Služby internetu
+Internet v súcasnosti ponúka množstvo služieb a stále vznikajú nejaké nové.
+?WWW (World Wide Web) - Najviac využívaná služba Internetu založená na WWW stránkach. Poskytuje virtuálny informacný priestor prístupný pomocou prehliadaca. Výhodou WWW stránok sú nízke prevádzkové náklady a možnost pravidelných aktualizácií predovšetkým v porovnaní s tlacenými informáciami. Zverejnením vlastných WWW stránok sa ponúka možnost propagácie firmy, ponúkat výrobky a služby širokej verejnosti. Používatel má možnost prezerat dokumenty, vyhladávat informácie. HTTP (HyperText Transfer Protocol)  prenáša hypertextové stránky uložené na WWW serveroch.
+?E-mail - e-mail umožnuje posielanie správ medzi pocítacmi pripojenými k Internetu.
+?UseNet - Elektronické konferencie a diskusné skupiny.
+?FTP (File Transfer Protocol) - umožnuje prenos údajov medzi dvomi k internetu pripojenými pocítacmi.
+?News - internetové diskusné skupiny sú obdobou klasickej nástenky. Používatel môže uverejnit svoj príspevok a naopak si môže cítat príspevky a odpovede ostatných úcastníkov danej debaty zaoberajúcej sa väcšinou urcitou témou.
+?Okrem týchto uvedených služieb patrí medzi hlavné služby internetu ešte Telnet (umožnuje  pripojit sa k vzdialenému pocítacu v sieti v tzv. terminálovom režime, potom pracujeme priamo na vzdialenom pocítaci a môžeme využívat všetky jeho prostriedky) a Gopher (umožnuje pristupovat k súborom, pricom informácie zostávajú v mieste svojho vzniku)
+35. Pocítacová kriminalita
+?Warez – trestná cinnost, šírene a vytváranie prostriedkov na odstránenie ochranných prvkov slúžiacich na chránenie autorských diel. Ludia, zaobchádzajúci s warezom, bývajú oznacovaní ako softvéroví piráti.
+?Hacking - prenikanie do cudzích pocítacov a pocítacových systémov obídením alebo prelomením bezpecnostnej ochrany 
+?Cracking - neoprávnený zásah alebo úprava softvéru za úcelom odstránenia alebo zablokovania jeho urcitých funkcií
+?Sniffing - Ide o neopravené odpocúvanie, ktorého úcelom je monitoring diania na sieti, zachytávanie hesiel, cítanie cudzích emailov, správ. Odhalenie páchatela sniffingu je casto dost problematické
+?Cybersquatting znamená neoprávnené registrovanie alebo užívanie domény.
+36. Internet – intranet
+?Internet - rozsiahla globálna otvorená informacná pocítacová metasiet (tj. siet sietí alebo prostriedok, vdaka ktorému dokážu pocítace po celom svete spolu komunikovat)
+?Intranet - Siet zložená z klientov a využívajúca IP adressing, za ktorou stojí jeden alebo viac firewallov zabezpecujúcich bezpecnost tejto siete z vonku. V skutocnosti môže fyzicky pokrývat celú zemegulu, prístup do tejto siete je však obmedzený skupinami klientov, ktorí sú do nej zahrnuté. Intranet teda predstavuje tzv. "interný internet".
+37. Internet –rýchlost, poskytovatelia
+Pripojit sa k Internetu znamená získat prístup k serveru – pocítacu, ktorý je už k Internetu pripojený. Dnes už existujú firmy, ktoré sa zameriavajú na poskytovanie pripojenia k Internetu drobným užívatelom, akými sú školy, podniky alebo domácnosti. Takéto firmy nazývame poskytovatel internetových služieb.  
+
+Možnosti pripojenia na Internet: 
+?DIAL-UP - je modemové analógové pripojenie (dial-up). Je to najlacnejší spôsob pripojenia vhodný pre tých, ktorí sa pripájajú na internet menej casto a využívajú jednoduchšie služby. Maximálna prenosová rýchlost na takejto linke je približne 65Kb/s. 
+?ISDN (digitálná siet integrovaných služieb) - je vo svojom princípe verejná digitálna telekomunikacná služba, s možnostou dátových prenosov. Funguje na princípe digitálneho prenosu údajov po existujúcich metalických vedeniach. Rýchlost dátového prenosu je až 128kbit/s.
+?ADSL - je technológia, ktorá poskytuje asymetrický vysokorýchlostný prenos dát
+?Bezdrôtové spojenie - WiFi je známe ako bezdrôtová siet vo volnom pásme 2.4GHz.(vysoká rýchlost, vysoká spolahlivost) 
+?Káblová TV - je pripojenie k internetu cez rozvody káblovej televízie. (velká kapacita, rýchlost)"Káblovka" je vhodná pre nárocnejších internetových používatelov na väcšie stahovanie (download). Výhoda je, že káble sú už natahané. Potrebný Káblový modem. 
+?Optický kábel - Prenos dát je šírený na princípe toku svetelných signálov. Optické vlákna sa vyznacujú vysokou prenosovou rýchlostou (niekolko stoviek Mb/s) a dosahom niekolko desiatok kilometrov.
+38. Hendikepovaný a pocítace
+?Pocítace dokážu výrazne zjednodušit život hendikepovaným ludom
+?Využitie pocítacov je tu naozaj rôzne, od amputovaných koncatín, kde sa využívajú pocítace v oblasti protézy na pohyb, aplikácie, ktoré ulahcujú slepým prechod mestom aj po prechode pre chodcov, hluchým umožnuje hlasový výstup z pocítaca, ucenie cítania z pier, pre slepých existuje Braillovský riadok
+?Nevýhodou je hlavne cenová dostupnost
